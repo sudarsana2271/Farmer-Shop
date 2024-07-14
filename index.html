@@ -1,0 +1,302 @@
+<!-- <?php
+    $background_img='res/1.jpg';
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    /* background-image: url('<?php echo $background_img; ?>'); */
+    /* background-size: 100px;
+    max-width: 100%; 
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* height: 80px; */
+
+}
+
+header {
+    background-color: #a67777;
+    color: #fff;
+    padding: 0px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav{
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+    font-size: xx-large;
+    margin-right: 30rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin: 8px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ .hero {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-green-fresh-vegetables-and-fruits-fresh-food-e-commerce-banner-image_174040.jpg');
+    background-size: contain;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+   
+} 
+.hero {
+        position: relative;
+        width: 100%;
+        height: 450x; /* Adjust height as needed */
+        overflow: hidden; /* Ensure overflow is hidden to contain pseudo-element */
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image:url('');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5; /* Adjust opacity for the background image */
+        z-index: -1; /* Ensure the pseudo-element is behind the content */
+    }
+
+    .container {
+        position: relative;
+        z-index: 1; /* Ensure content appears above the pseudo-element */
+        color: rgb(138, 52, 72);
+        text-align: center;
+        padding: 18px;
+    }
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: rgb(50 2 16);
+    FONT-FAMILY: UI-SANS-SERIF;
+    FONT-SIZE: x-large;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #761c3e;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff ;
+}
+
+.products {
+    position: relative;
+    /* left: 32px; */
+    margin-top: 50px;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/539/493/original/seamless-pattern-vegetables-berries-and-fruits-background-it-can-be-used-for-wrapping-paper-packages-brochures-and-flyers-free-vector.jpg');
+    /* background-image: url('https://cdn2.vectorstock.com/i/1000x1000/82/31/cute-mix-vegetables-seamless-pattern-background-vector-21108231.jpg'); */
+    background-size: cover;
+
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 0 15px; */
+    text-align: middle;
+    background-color: #a3606cb3;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    width: 240px;
+    
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    FONT-SIZE: xx-large;
+    color: rgb(22, 5, 3);
+    FONT-FAMILY: UI-SANS-SERIF;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #203521;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fffffffa;
+    color: #321e1e;
+    text-align: center;
+    padding: 1px 0;
+    position:absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+.container h2 {
+    color: rgb(50 2 16);
+    FONT-FAMILY: UI-SANS-SERIF;
+    FONT-SIZE: xxx-large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.products .container{
+    margin-left: 4%;
+    margin-right: 0%;
+}
+.row {
+    row-gap: 50px;
+    column-gap: 30px;
+    /* align: center; */
+    margin-left: 26px;
+    align-content: center;
+}
+.container ul>span{
+    position: relative;
+    left: 30rem;
+    bottom: 5px;
+}
+
+    </style>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <!-- <li><a href="Shop.php">Shop</a></li> -->
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <span>
+                        <li><button class="btn login-btn" onclick="location.href='login.php'">Login</button></li>
+                        <li><button class="btn signup-btn" onclick="location.href='signup.php'">Sign up</button></li>
+                    </span> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>"Harvest Haven: Fresh Picks from Farm to Table"<h2>
+            <p>Discover the finest selection of locally grown fruits, vegetables, dairy, and more!</p>
+            <!-- <a href="#" class="btn">Shop Now</a> -->
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2>Shop Here</h2>
+            <div class="row">
+                <div class="product col-4">
+                    <img src="https://anotheronebitesthecrustblog.com/wp-content/uploads/2017/05/fruits.jpg" alt="Product 1">
+                    <h3>Organic Fruits</h3>
+                    <a href="Fruits.php" class="btn">View</a><br>
+                    <!-- <a href="#" class="btn">Add to Cart</a> -->
+                </div>
+                <div class="product col-4">
+                    <img src="https://assets.cntraveller.in/photos/60ba23b90f3a5367ec9fe85b/16:9/w_960,c_limit/Farm-fresh-produce-1366x768.jpg" alt="Product 3">
+                    <h3>Fresh Vegetables</h3>
+                    <a href="Vegetables.php" class="btn">View</a><br>
+                    <!-- <a href="#" class="btn">Add to Cart</a> -->
+                </div>
+                <div class="product col-4">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.kFMfrsU6nw4y9WO7MWQB1AHaE8&pid=Api&P=0&h=220" alt="Product 4">
+                    <h3>Dairy Product</h3>
+                    <a href="Dairy Product.php" class="btn">View</a><br> 
+                    <!-- <a href="#" class="btn">Add to Cart</a> -->
+                </div>
+                <div class="product col-4">
+                    <img src="https://4.bp.blogspot.com/-ht7XVvwlSj4/WqXa5q0lULI/AAAAAAAAEXg/xpjpyhUTB6cZO_9cxAiCNn0ht_IlSuUoACEwYBhgL/s1600/wholegrains.jpg" alt="Product 5">
+                    <h3>Grains and Legumes</h3>
+                    <a href="Grains&Legumes.php" class="btn">View</a><br> 
+                    <!-- <a href="#" class="btn">Add to Cart</a> -->
+                </div>
+            <!-- <div class="product col-4">
+                <img src="https://odishabytes.com/wp-content/uploads/2021/09/Non-Veg-e1631190551674.jpg" alt="Product 2">
+                <h3>Meat and Poultry</h3>
+                <a href="Meat&Poultry.php" class="btn">View</a><br>
+                <a href="#" class="btn">Add to Cart</a> -->
+            </div>
+          
+            <!-- <div class="product col-4">
+                <img src="https://www.plantsbycreekside.com/wp-content/uploads/2015/03/Creekside-0109.jpg" alt="Product 5">
+                <h3>Flowers and Plants</h3>
+                < href="Flowers&Plants.php" class="btn">View</a><br> 
+                <a href="#" class="btn">Add to Cart</a> -->
+            </div>
+        </div>
+            
+            <!-- Add more products as needed -->
+        </div> 
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local Farmers Market. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
