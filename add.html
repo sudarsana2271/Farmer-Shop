@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmers Market - Add to Cart</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #a9889994;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+}
+p{
+    color:rebeccapurple;
+    font-size: 30px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: 200px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #c872862e
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color:darkblue ">Add To Cart</h1>
+    <div class="products">
+      <div class="product">
+        <img src="https://masseysofsaintfield.co.uk/wp-content/uploads/2020/09/Potatoes.jpg" alt="Product 1">
+        <p>Potato</p>
+        <!-- <button onclick="addToCart('Product 1', 'product1.jpg')">Add to Cart</button> -->
+      </div>
+    <div class="product">
+      <img src="https://dev.mos.cms.futurecdn.net/xitwmACLihFxPFBLYh2JJH-1536-80.jpg" alt="Product 2">
+      <p>Tomatoes</p>
+      <!-- <button onclick="addToCart('Product 2', 'product2.jpg')">Add to Cart</button> -->
+    </div>
+    <div class="product">
+      <img src="https://img.choice.com.au/-/media/ac6606a5f8e24a3582ba1ea6a3584599.ashx" alt="Product 2">
+      <p>Milk</p>
+      <!-- <button onclick="addToCart('Product 2', 'product2.jpg')">Add to Cart</button> -->
+    </div>
+    <div class="product">
+      <img src="https://www.brandsynario.com/wp-content/uploads/2017/09/rice-lead.jpg" alt="Product 2">
+      <p>Rice</p>
+      <!-- <button onclick="addToCart('Product 2', 'product2.jpg')">Add to Cart</button> -->
+    </div>
+      <!-- Add more products as needed -->
+    </div>
+    <!-- <div class="cart">
+      <h2>Shopping Cart</h2>
+      <div id="cart-items">
+        Cart items will be dynamically added here 
+      </div>
+    </div> -->
+  </div>
+
+  <script src="script.js"></script>
+  <script>// Function to add an item to the cart
+function addToCart(productName, imageUrl) {
+  // Create a new item element
+  let item = document.createElement('div');
+  item.classList.add('cart-item');
+
+  // HTML for the item (image and name)
+  item.innerHTML = `
+    <img src="${imageUrl}" alt="${productName}">
+    <p>${productName}</p>
+    <button onclick="removeFromCart(this)">Remove</button>
+  `;
+
+  // Add the item to the cart
+  document.getElementById('cart-items').appendChild(item);
+}
+
+// Function to remove an item from the cart
+function removeFromCart(button) {
+  // Traverse up the DOM to find the cart item and remove it
+  button.parentNode.remove();
+}
+</script>
+</body>
+</html>

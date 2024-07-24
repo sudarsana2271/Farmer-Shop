@@ -147,7 +147,7 @@
                     <img src="https://masseysofsaintfield.co.uk/wp-content/uploads/2020/09/Potatoes.jpg" alt="Product 1">
                     <h3>Potatoes<br>Available!</h3>
                     <a href="Vegetables.php" class="btn" style="font-style:bold;">5kg - 50rs</a><br>
-                    <a href="#" class="btn">Add to Cart</a>
+                    <a href="add.html" class="btn">Add to Cart</a>
                 </div>
 
 
@@ -179,7 +179,7 @@
                 <img src="https://dev.mos.cms.futurecdn.net/xitwmACLihFxPFBLYh2JJH-1536-80.jpg" alt="Product 2">
                 <h3>Tomatoes<br>Available!</h3>
                 <a href="Vegetables.php" class="btn">1.5kg - 100rs</a><br>
-                <a href="#" class="btn">Add to Cart</a>
+                <a href="add.html" class="btn">Add to Cart</a>
             </div>
 
 

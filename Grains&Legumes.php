@@ -142,7 +142,7 @@
                     <img src="https://www.brandsynario.com/wp-content/uploads/2017/09/rice-lead.jpg" alt="Product 1">
                     <h3>Rice<br>Available!</h3>
                     <a href="Grains&Legumes.php" class="btn" style="font-style:bold;">1.5kg - 50rs</a><br>
-                    <a href="#" class="btn">Add to Cart</a>
+                    <a href="add.html" class="btn">Add to Cart</a>
                 </div>
 
 
