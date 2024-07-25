@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Your Cart</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
   body {
@@ -65,6 +66,7 @@
 <div class="container">
   <div class="cart">
     <h1>Your Shopping Cart</h1>
+<a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAAAeJJREFUaEPt2e1NxDAMBuDcJMAkwCYwCTAJ3CSwCTAJ9JVqFPkc24mdKyc1En9oPp64buPqDuUC2+ECzWVHs7t2XUr5mnEnZ0Qa2PdSCqHvs/HZaEA/WXQR7VR4JloCkz8VnoXWwOnwDHQL/Lbk8sOMVImiW2Dk8MeKfs2GR9AWmKyIdip8FO0FT4GPoHvB6fBe9Cg4Fd6DjoLT4F50FjgF7kFng8NwCz0LHIJr6NngYXgL3QI/LiUnjufs1nUASWit+KHjmaMxBu1O2BSu0XUc7VLDONTgvInVoYRGPUyL8EkktBSll2Xg8/r3VE0CxHH9fz13C40+GHNTd+Zoq8TkaG0xLYV65wH679NNQqO4AUZqfDHc0lZfDY00wVzUQpHGJIg2QW5ZTczRP5pMucZvOUdjU0gjtJMH33pPIy/rnMyKtIWmZ0LcdxTNN+UNPEfxSE9FI5W0Z0DaBM9n9Dkrmp4BL1wCb4L2wlvgzdAWXANvim7BLfDmaA73gP8FmuCoSfBK9LSzvz08KKvPjraOcSuC3utTI43i5dsr6eh3xQqz0DE+Wi93eMWu6medVTCN1BZRsPmatNDWSRcF8vEAI8rqD0weNE1cf6BmYzFf66P3ZK0e9Azo0Jw7eihsA4N+AerkuC50jCPDAAAAAElFTkSuQmCC"/></a>
     <table class="table table-bordered">
       <thead>
         <tr>
