@@ -174,7 +174,7 @@
       .then(response => response.json())
       .then(data => {
         if (data.success) {
-          alert('Item added to cart.');
+          alert('Item added to cart. Thanks ;)');
         } else {
           alert('Failed to add item to cart.');
         }

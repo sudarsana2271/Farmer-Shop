@@ -173,7 +173,8 @@
         #contact > main {
     max-width: 800px;
     margin: 20px auto;
-    background-color:lightlightergray;
+    background: rgb(253,241,227);
+background: linear-gradient(157deg, rgba(253,241,227,1) 6%, rgba(232,167,92,1) 53%);
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -193,7 +194,8 @@
     font-size: 2em;
     border: 2px solid #ccc;
     border-radius: 3px;
-    background-color: lightseagreen;
+    background: rgb(253,241,227);
+background: linear-gradient(157deg, rgba(253,241,227,1) 6%, rgba(232,167,92,1) 53%);
     box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
 }
 
@@ -242,6 +244,43 @@ textarea {
 }
 
 #about > main > section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+#Customer_Testimonials{
+    position: relative;
+    left: 18rem;
+    width: 900px;
+    background-color: linen;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+}
+#Customer_Testimonials > h2{
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+}
+#Customer_Testimonials > p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#Quality_and_Freshness{
+    position: relative;
+    left: 18rem;
+    width: 900px;
+    background-color: linen;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+}
+#Quality_and_Freshness > h2{
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+}
+#Quality_and_Freshness > p{
     font-size: 1.2rem;
     line-height: 1.8;
 }
@@ -340,11 +379,11 @@ textarea {
             <p>Our vendors at Farmer's Shop are the backbone of our community, each bringing unique products and a commitment to sustainability. From organic fruits and vegetables to artisanal crafts and homemade goods, they embody our dedication to quality and local support. Visit our market to meet these passionate individuals, hear their stories, and experience the diverse offerings that reflect our region's rich agricultural heritage.</p>
         </section>
         </section>
-        <section id="Customer Testimonials">
+        <section id="Customer_Testimonials">
             <h2>Our Customer Testimonials</h2>
             <p>Customers love Farmer's Shop for its vibrant atmosphere and top-notch products. Sarah says, "The produce is always fresh and delicious!" John adds, "It's a great place to connect with neighbors." Mary appreciates the knowledgeable vendors. Join us at [Local Farmer's Market] for quality, community, and a taste of local goodness!</p>
         </section>
-        <section id="Quality and Freshness">
+        <section id="Quality_and_Freshness">
             <h2>Our Quality and Freshness</h2>
             <p>At Farmer's Shop, quality and freshness are non-negotiable. We pride ourselves on offering the freshest, locally-sourced produce and artisanal products. Every item is carefully selected to ensure top-notch quality, allowing our customers to enjoy the very best our region has to offer, straight from farm to table.</p>
         </section>
@@ -373,7 +412,7 @@ textarea {
                 </div>
                 <div class="form-group">
                     <label for="Phone Number">Phone Number :</label>
-                    <input type="number" id="PhoneNumber" name="Phone Number" class="form-control border-4" required>
+                    <input type="tel" id="PhoneNumber" name="Phone Number" class="form-control border-4" placeholder="+91" required>
                 </div>
                 <div class="form-group">
                     <label for="Address">Address:</label>
@@ -383,7 +422,7 @@ textarea {
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" class="form-control border-4" required></textarea>
                 </div>
-                <button type="submit" style="background-color: #4CAF50;
+                <button type="submit" style="background-color: #b13843e6;
                 color: white;
                 width: 30%;
                 padding: 15px 15px;
