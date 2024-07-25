@@ -9,20 +9,22 @@
 <style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f7f9fc;
+    background-color: lavender;
     margin: 0;
     padding: 0;
   }
   .container {
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 20px;
     max-width: 1200px;
   }
   .cart {
-    background-color: #fff;
+    background-color:  #f7edf1;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    font-family: italic;
+    font-size: large;
   }
   h1 {
     text-align: center;
@@ -65,7 +67,7 @@
 <body>
 <div class="container">
   <div class="cart">
-    <h1>Your Shopping Cart</h1>
+    <h1>🌾Your Shopping Cart🌾</h1>
 <a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAAAeJJREFUaEPt2e1NxDAMBuDcJMAkwCYwCTAJ3CSwCTAJ9JVqFPkc24mdKyc1En9oPp64buPqDuUC2+ECzWVHs7t2XUr5mnEnZ0Qa2PdSCqHvs/HZaEA/WXQR7VR4JloCkz8VnoXWwOnwDHQL/Lbk8sOMVImiW2Dk8MeKfs2GR9AWmKyIdip8FO0FT4GPoHvB6fBe9Cg4Fd6DjoLT4F50FjgF7kFng8NwCz0LHIJr6NngYXgL3QI/LiUnjufs1nUASWit+KHjmaMxBu1O2BSu0XUc7VLDONTgvInVoYRGPUyL8EkktBSll2Xg8/r3VE0CxHH9fz13C40+GHNTd+Zoq8TkaG0xLYV65wH679NNQqO4AUZqfDHc0lZfDY00wVzUQpHGJIg2QW5ZTczRP5pMucZvOUdjU0gjtJMH33pPIy/rnMyKtIWmZ0LcdxTNN+UNPEfxSE9FI5W0Z0DaBM9n9Dkrmp4BL1wCb4L2wlvgzdAWXANvim7BLfDmaA73gP8FmuCoSfBK9LSzvz08KKvPjraOcSuC3utTI43i5dsr6eh3xQqz0DE+Wi93eMWu6medVTCN1BZRsPmatNDWSRcF8vEAI8rqD0weNE1cf6BmYzFf66P3ZK0e9Azo0Jw7eihsA4N+AerkuC50jCPDAAAAAElFTkSuQmCC"/></a>
     <table class="table table-bordered">
       <thead>
